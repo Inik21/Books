@@ -14,17 +14,16 @@ Various possible applications for development:
 
 ### Installing Universal Windows Tools
 
-As UWP is deprecated, it is a little bit tricky to install it with Visual Studio 2022
+As UWP is deprecated in Visual Studio 2022, it is recommended to use Visual Studio 2019 or lower version
 
 1. Go to the Visual Studio Installer
 2. Modify your version of Visual Studio
-3. Click on `WinUI Application Development`
-4. In the Optional section on the right, select `Universal Windows Platform tools`
-5. Click `Modify`
+3. Select `Universal Windows Platform Development`
+4. Click `Modify`
 
-### Opening a project
+### Enabling Developer Mode
 
-Just open Visual Studio and create a new `UWP Blank App` Project
+When opening your first `Blank App (Universal Windows)` project, you will be prompted to activate Developer Mode in the settings.
 
 ## Project Structure
 
