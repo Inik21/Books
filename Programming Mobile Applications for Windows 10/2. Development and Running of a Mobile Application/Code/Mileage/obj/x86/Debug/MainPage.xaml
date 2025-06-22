@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="Mileage.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Mileage"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock x:ConnectionId='2' x:Name="Mileage" HorizontalAlignment="Left" Margin="61,158,0,0" Text="Mileage" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="21.333"/>
+        <TextBox x:ConnectionId='3' x:Name="mileage" HorizontalAlignment="Left" Margin="237,158,0,0" Text="100" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <TextBlock x:ConnectionId='4' x:Name="Consumption" HorizontalAlignment="Left" Margin="61,260,0,0" Text="Consumption" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="21.333"/>
+        <TextBlock x:ConnectionId='5' x:Name="Liters" HorizontalAlignment="Left" Margin="61,210,0,0" Text="Liters" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="21.333"/>
+        <TextBox x:ConnectionId='6' x:Name="consumption" HorizontalAlignment="Left" Margin="237,260,0,0" Text="10" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <TextBox x:ConnectionId='7' x:Name="liters" HorizontalAlignment="Left" Margin="237,210,0,0" Text="10" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <TextBlock x:ConnectionId='8' x:Name="Consumption_Copy" HorizontalAlignment="Left" Margin="431,260,0,0" Text="l/100 km" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="21.333"/>
+        <Button x:ConnectionId='9' Content="Calculate" Margin="61,315,0,0" VerticalAlignment="Top" Width="95"                     />
+
+    </Grid>
+</Page>
+

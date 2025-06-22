@@ -41,7 +41,7 @@ Contains the code for the `Mainpage.xaml`, written in C#. The code for each page
 
 The Project File of the object for the Windows Store Application, written in XAML. It doesn't have any visual representation, but instead keeps the data and settings for the whole application. It can contain fonts, resources, themes - light and dark, etc.
 
-```
+``` XAML
 <Application
     x:Class="App1.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -58,7 +58,7 @@ Contains the code for the `App.xaml` file. It processes different events - launc
 
 It also selects the page, which will be shown first in the application:
 
-```
+``` C#
 rootFrame.Navigate(typeof(MainPage), e.Arguments);
 ```
 
