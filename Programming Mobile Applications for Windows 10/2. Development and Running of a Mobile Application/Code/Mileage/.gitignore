@@ -1,0 +1,32 @@
+# Ignore build output
+bin/
+obj/*
+
+# Ignore VS files
+.vs/
+*.user
+*.suo
+
+# Ignore cache and design-time files
+*.cache
+*.csproj.user
+*.csproj.AssemblyReference.cache
+*.tlog
+*.log
+*.dbmdl
+*.db
+
+# Ignore temporary and state files
+*.orig
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignore publish output
+publish/
+app.publish/
+
+# Ignore Test results
+TestResults/
+*.trx
