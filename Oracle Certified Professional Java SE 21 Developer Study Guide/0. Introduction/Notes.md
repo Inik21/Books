@@ -56,3 +56,48 @@ The following list of topics is meant to give you an idea of the types of questi
 - **Code Questions with Long Options**: The hardest questions on the exam have multiple lines of code in each option. For example, some of the questions have 6 possible options and up to 30 lines of code in each.
 - **Code Questions with Made-Up or Incorrect Concepts**: In the context of a word problem, the exam may bring up a term or concept that does not make any sense, such as falsely saying a record extends another record. In other cases, the exam may use a keyword that does not exist in Java, like struct. For these, you just have to read carefully and recognize when the exam is using invalid terminology to try to trick you.
 - **Questions That Are Really Out of Scope**: When introducing new questions, Oracle includes them as unscored questions at first. This allows the exam creators to see how real exam takers do without impacting your score. You will still receive the number of questions the exam lists. However, a few of them may not count. These unscored questions may contain out-of-scope material or even errors.
+
+## Reading this book
+
+To get the most out of this book, it might help to have some idea about how this book has been written. This section contains details about some of the common structures and features you find in this book, where to go for additional help, and how to obtain bonus material for this book.
+
+### How This Book Is Organized
+
+This book is divided into 14 chapters, plus supplementary online material: a glossary of important terms, 500+ flash cards, and three practice exams that simulate the real exam.
+
+The chapters are organized as follows:
+
+- **Chapter 1: Building Blocks** - describes the basics of Java, such as how to run a program. It covers variables such as primitives, object data types, and scoping variables. It also discusses garbage collection
+- **Chapter 2: Operators** - explains operations with variables. It also talks about casting and the precedence of operators
+- **Chapter 3: Making Decisions** - covers core logical constructs such as decision statements, pattern matching with instanceof and switch, and loops
+- **Chapter 4: Core APIs** - works with `String`, `StringBuilder`, arrays, and dates
+- **Chapter 5: Methods** - explains how to design and write methods. It also introduces access modifiers, which are used throughout the book
+- **Chapter 6: Class Design** - covers class structure, constructors, inheritance, and initialization. It also teaches you how to create abstract classes and overload methods
+- **Chapter 7: Beyond Classes** - introduces many top-level types (other than classes), including interfaces, enums, sealed classes, records with and without pattern matching, and nested classes. It also covers polymorphism
+- **Chapter 8: Lambdas and Functional Interfaces** - shows how to use lambdas, method references, and built-in functional interfaces
+- **Chapter 9: Collections and Generics** - demonstrates method references, generics with wildcards, and `Collections`
+- **Chapter 10: Streams** - explains stream pipelines in detail. It also covers the `Optional` class
+- **Chapter 11: Exceptions and Localization** - demonstrates the different types of exception classes and how to apply them to build more resilient programs. It concludes with localization and formatting, which allow your program to gracefully support multiple countries or languages
+- **Chapter 12: Modules** - details the benefits of the new module feature. It shows how to compile and run module programs from the command line. Additionally, it describes services and how to migrate an application to a modular infrastructure
+- **Chapter 13: Concurrency** - introduces the concept of platform and virtual threads along with thread-safety. It teaches you how to build multithreaded programs using the Concurrency API and parallel streams
+- **Chapter 14: I/O** - introduces you to managing files and directories using the I/O and NIO.2 APIs. It covers a number of I/O stream classes, teaches you how to serialize data, and shows how to interact with a user. Additionally, it includes techniques for using streams to traverse and search the file system
+
+> At the end of each chapter, you’ll find a few elements you can use to prepare for the exam:
+> 
+> - **Summary**: This section reviews the most important topics that were covered in the chapter and serves as a good review
+> - **Exam Essentials**: This section summarizes highlights that were covered in the chapter
+> - **Review Questions**: Each chapter concludes with at least 20 review questions
+
+### Interactive Online Learning Environment and Test Bank
+
+To register and gain access to this interactive online learning environment, please visit this [URL](https://login.education.wiley.com/login?login_success_url=https%3A%2F%2Fcheckout.education.wiley.com%2Ftest-bank-redemption)
+
+The online test bank includes the following:
+
+- **Three Practice Exams**
+- **500+ Flashcards**
+- **Additional Resources**
+
+
+
+
